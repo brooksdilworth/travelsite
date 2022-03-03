@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+    color: #3B3A3A;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-image: url(bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+	
+	
+}
+h1 {
+    color: #6BE6FE;
+	font-family: politica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+	}
+
+p{
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    background-color: #F5F5F5;
+    border: thick solid #C93DA6;
+}
+
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+article {
+    margin-bottom: 30px;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Float the Aside so it displays next to Main.*/
+aside {
+    width: 150px;
+    height: 1400px;
+    float: left;
+    background-color: #737373;
+}
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(header.jpg);
+}
+
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line header.*/
+main {
+    width: 598px;
+    height: 1500px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/*Clear the float so the footer shows up in the righth place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+body {
+    background-image: url(harbor.jpeg);
+}
+table {
+    border: thick solid #6A0CD2;
+    background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bold;
+}
